@@ -1,13 +1,14 @@
 #root {
   max-width: 812px;
   width: 375px;
-  height: 812;
+  height: 812px;
   max-height: 812px;
   margin: 0;
   padding: 0;
-  background-color: rgb(235, 232, 232);
+  background-color:#ECF0F3;
   
 }
+
 
 .register-line {
   letter-spacing: 4%;
