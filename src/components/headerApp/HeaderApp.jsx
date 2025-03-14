@@ -1,7 +1,7 @@
 import React from "react";
-import "./MainButton.css"
+import "./HeaderApp.css"
 
- function MainButton () {
+ function HeaderApp () {
 
     return (
         <div >
@@ -11,4 +11,4 @@ import "./MainButton.css"
         </div>
     )
 }
-export default MainButton
+export default HeaderApp
