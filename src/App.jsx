@@ -8,21 +8,29 @@ import WelcomeView from './views/welcomeView/welcomeView'
 
 
 
+
 function App() {
   
 
   return (
     <>
+    <div>
       <MainButton/>
+   
+     {/*  <BrowserRouter>
+        <Routes> */}
+{/*           <Route path="/" element= {<WelcomeView/>}/>
+        </Routes>
+      </BrowserRouter> */}
       <WelcomeView/>
       <LoginButton/>
-      <div>
-        <p className='register-line'>
-        Don’t have an Account? <a className='ico-register'> Register</a>
-        </p>
-       
-      </div>
-      
+
+            <footer className='footer-line'>
+              <p className='register-line'>
+              Don’t have an Account? {' '} <a href="/register" className='ico-register'> Register</a>
+              </p>
+            </footer>
+    </div>
     </>
   )
 }

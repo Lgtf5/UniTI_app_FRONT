@@ -8,8 +8,8 @@ function LoginButton() {
 
 
         return (
-            <div className="icoLogin" >
-                <img src="/login.svg" alt="icon login"></img>
+            <div  >
+                <img className="icoLogin" src="/login.svg" alt="icon login"></img>
                 <a></a>
             </div>
         )

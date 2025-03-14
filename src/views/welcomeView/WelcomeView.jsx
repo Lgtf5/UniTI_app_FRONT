@@ -5,7 +5,7 @@ import "./WelcomeView.css"
 function WelcomeView() {
 
     return(
-        <div className="welcome"> 
+        <div className="welcome-container"> 
                 <img className="group" src="./fondo.svg" alt="imagen grupo" />
                 <div className="welcome-title">
                 <h1 className="gets">Gets <span className="resource">resource</span> with <img className="uniti-naranja" src="./UnitiNaranja.svg"/></h1>
