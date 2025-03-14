@@ -14,15 +14,9 @@ function App() {
   return (
     <>
       <HeaderApp/>
-      <LoginView/>
+      <Welc/>
 
-      <div>
-        <footer className='footer-line'>
-          <p className='register-line'>Don’t have an Account? 
-            <a className='ico-register'> Register</a>
-          </p>
-          </footer>
-      </div>
+      
       
     </>
   )
