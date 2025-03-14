@@ -1,7 +1,7 @@
 
 import React from "react";
 import "./LoginView.css"
-import OkButton from "../buttons/OkButton";
+import OkButton from "../../components/buttons/OkButton";
 
 
 
@@ -19,7 +19,7 @@ function LoginView() {
               {/*   <image className="eye" src="./eye.svg"/> */}
                 </input>
             </div>
-            
+
             <OkButton/>
         </div>
     
