@@ -1,11 +1,9 @@
 
-import { useState } from 'react'
+
 import './App.css'
-
-import LoginView from './views/LoginView/LoginView'
-import HeaderApp from './components/headerApp/HeaderApp'
-import FooterApp from './components/FooterApp/FooterApp'
-
+import HeaderApp from "./components/headerApp/HeaderApp"
+import FooterApp from "./components/FooterApp/FooterApp"
+import SectionsView from './views/SectionsView/SectionsView'
 
 
 function App() {
@@ -13,12 +11,13 @@ function App() {
 
   return (
     <>
-    <div>
-      <HeaderApp/>
-      <LoginView/>
-      <FooterApp/>
+      <div>
+        <HeaderApp/>
+        <SectionsView/>
+        <FooterApp/>
       
       </div>
+     
     </>
   )
 }

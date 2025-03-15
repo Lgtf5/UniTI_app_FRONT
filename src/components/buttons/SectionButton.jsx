@@ -1,16 +1,20 @@
-import React from "react";
+import './SectionButton.css'
 
 
-export const SectionButton = ({action, text, title, image}) => {
-    const { openModal } = useModal()
+export const SectionButton = ({ text, title, image }) => {
 
-    return(
-        <button className="section-button" onClick={() => openModal(action)}>
-            {text} {title} {image}
-        </button>
+
+    return (
+        <div>
+        <div className="section-button">
+            <img src={image} alt={title} className="image-button" />
+            <h2 className="title-section">{title}</h2>
+            <p className="button-text">{text}</p>
+        </div>
+
+                </div>
     )
 }
 
-    
-    
-export default SectionButton
+
+

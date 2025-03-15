@@ -1,12 +1,16 @@
 import React from "react";
-import SectionView from "./SectionView";
+import MainSection from "./MainSection";
+import "./SectionsView.css";
+
 
 
 function SectionsView() {
 
 
-    return(
-        <SectionView/>
+    return (
+        <div>
+            <MainSection className="section-container" />
+        </div>
     )
 }
 export default SectionsView
