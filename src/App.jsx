@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+
 import './App.css'
 
 import LoginView from './views/LoginView/LoginView'
@@ -19,6 +19,7 @@ function App() {
       <RegisterView/>
       
       </div>
+     
     </>
   )
 }
