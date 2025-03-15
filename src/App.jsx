@@ -2,10 +2,11 @@
 
 import './App.css'
 
-import LoginView from './views/LoginView/LoginView'
+
 import HeaderApp from './components/headerApp/HeaderApp'
 import FooterApp from './components/FooterApp/FooterApp'
-import RegisterView from './views/RegisterView/RegisterView'
+
+import MainResources from './views/ResourcesView/MainResources'
 
 
 
@@ -15,9 +16,9 @@ function App() {
   return (
     <>
     <div>
-      
-      <RegisterView/>
-      
+      <HeaderApp/>
+      <MainResources/>
+      <FooterApp/>
       </div>
      
     </>
