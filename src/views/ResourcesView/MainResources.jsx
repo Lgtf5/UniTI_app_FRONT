@@ -1,7 +1,7 @@
 import { ResourceButton } from '../../components/buttons/ResourceButton.jsx'
 import "/logoSass.svg"
 import './ResourcesView.css'
-import '/exit.svg' 
+
 
 const MainResources = (() => {
 
