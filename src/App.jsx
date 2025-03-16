@@ -1,10 +1,10 @@
 
 
 import './App.css'
+import LoginView from './views/LoginView/LoginView'
 
 
 
-import RegisterView from './views/RegisterView/RegisterView'
 
 
 
@@ -15,7 +15,7 @@ function App() {
     <>
     <div>
       
-      <RegisterView/>
+      <LoginView/>
       
       </div>
     </>
