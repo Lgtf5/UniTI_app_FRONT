@@ -1,6 +1,6 @@
 import React from "react";
 
-function FooterApp() {
+function FooterRegister() {
 
     return(
         <div>
@@ -13,4 +13,4 @@ function FooterApp() {
     )
 }
 
-export default FooterApp
+export default FooterRegister
