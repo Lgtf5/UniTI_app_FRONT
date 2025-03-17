@@ -1,0 +1,32 @@
+.section-button {
+    margin-top: 10px;
+    margin-left: 46px;
+    border-radius: 17px;
+    width: 282px;
+    height: 69px;
+    border: 2.5px  #7a64ac93 solid; 
+    padding: 1.5px;
+}
+
+.button-text {
+    color: black;
+    line-height: 12px;
+    margin: 12px;
+    margin-top: -66px;
+    margin-left: 90px;
+    font-size:x-small;
+    text-align: justify;
+    letter-spacing: 0.7px;
+    word-spacing: -1px;
+    padding: 1px;
+    
+}
+.image-button {
+    width: 70px;
+    height: 60px;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-left: 4px;
+    padding: 1px;
+    
+}

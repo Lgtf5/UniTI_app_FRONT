@@ -1,10 +1,10 @@
 import React from "react";
-import MainSection from "./MainSection";
-import "./SectionsView.css";
+import MainSection from "./MainResources";
+import "./ResourcesView.css";
 
 
 
-export function SectionsView() {
+function ResourcesView() {
 
 
     return (
@@ -13,3 +13,4 @@ export function SectionsView() {
         </div>
     )
 }
+export default ResourcesView

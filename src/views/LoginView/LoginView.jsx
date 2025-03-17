@@ -2,6 +2,18 @@
 import {useState} from "react";
 import "./LoginView.css"
 import OkButton from "../../components/buttons/OkButton";
+
+
+
+function LoginView() {
+    const navigate = useNavigate();
+    const hadleLogin = () => {
+        navigate('/welcome');
+    };
+
+
+    return (
+        <div className="login-container">
 import FooterRegister from "../../components/FooterApp/FooterRegister"
 import HeaderApp from "../../components/headerApp/HeaderApp"
 
@@ -55,12 +67,33 @@ const LoginView = () => {
         <div>
             <HeaderApp />
             <h1 className="title-login">Welcome Back</h1>
+            <div>
+                <form onSubmit={(e) => {
+                    e.preventDefault();
+                    handleLogin();
+                }}>
+                    <div className="input-username">
+                        <input type="text" className="username" placeholder="Enter username"></input>
+                    </div>
             <form onSubmit={handleSubmit}>
             <div className="input-username">
                 <input 
                 type="text" name="user" value= {formData.user} onChange={handleChange} className="username" placeholder="Enter username" required/>
             </div>
 
+                    <div className="input-password">
+                        <input type="password" className="password" placeholder="Enter password">
+                            <image className="eye" src="./eye.svg" />
+                        </input>
+                    </div>
+
+                    <OkButton type="submit" />
+                </form>
+            </div>
+        </div>
+
+    )
+}
             <div className="input-password">
                 <input type={passwordView ? 'text' : 'password'} name="password" value= {formData.password} onChange={handleChange} className="password" placeholder="Enter password" required/>
                 
