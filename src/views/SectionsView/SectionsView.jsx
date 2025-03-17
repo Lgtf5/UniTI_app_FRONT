@@ -4,7 +4,7 @@ import "./SectionsView.css";
 
 
 
-function SectionsView() {
+export function SectionsView() {
 
 
     return (
@@ -13,4 +13,3 @@ function SectionsView() {
         </div>
     )
 }
-export default SectionsView

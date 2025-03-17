@@ -1,7 +1,8 @@
 import React from "react";
 import "./RegisterView.css"
+
 import OkButton from "../../components/buttons/OkButton";
-import FooterApp from "../../components/FooterApp/FooterApp";
+import FooterSign from "../../components/FooterApp/FooterSign";
 import HeaderApp from "../../components/headerApp/HeaderApp";
 
 
@@ -19,18 +20,21 @@ function RegisterView() {
             <div className="input-password">
                 <input type="password" className="password" placeholder="Enter password">
                 </input>
-                <image className="eye" src="./eye.svg" onClick="tooglePassword()" class="toggle-password" />
-
+                <div className="eye-container">
+                <img className="eye" src="/eye.svg" onClick="tooglePassword()" class="toggle-password"/>
+                </div>
             </div>
 
             <div className="input-password">
                 <input type="password" className="password" placeholder="Confirm password">
                 </input>
-                <image className="eye" src="./eye.svg" onClick="tooglePassword()" class="toggle-password" />
+                <div className="eye-container">
+                <img className="eye" src="/eye.svg" onClick="tooglePassword()" class="toggle-password"/>
+                </div>
             </div>
 
             <OkButton />
-            <FooterApp />
+            <FooterSign />
         </div>
 
     )

@@ -1,7 +1,7 @@
 import React from "react";
 import './FooterApp.css'
 
-function FooterApp() {
+function FooterRegister() {
 
     return(
         <div className="footer-container">
@@ -14,4 +14,4 @@ function FooterApp() {
     )
 }
 
-export default FooterApp
+export default FooterRegister
