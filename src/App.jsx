@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import LoginView from './views/LoginView/LoginView'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from './components/Navigation/Navigation';
